@@ -97,10 +97,9 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #l
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# ALIAS
+alias valgrind='docker run -it -v $PWD:/tmp -w /tmp valgrind:1.0'
 
 # PROMPT
 SPACESHIP_PROMPT_ADD_NEWLINE=false
