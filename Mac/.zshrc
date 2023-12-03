@@ -99,7 +99,7 @@ source $ZSH/oh-my-zsh.sh
 #l
 
 # ALIAS
-alias valgrind='docker run -it -v $PWD:/tmp -w /tmp valgrind:1.0'
+alias leak='docker run -it -v $PWD:/tmp -w /tmp valgrind:1.0'
 
 # PROMPT
 SPACESHIP_PROMPT_ADD_NEWLINE=false
